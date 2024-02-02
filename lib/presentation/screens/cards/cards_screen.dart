@@ -90,7 +90,6 @@ class _CardType1 extends StatelessWidget {
 }
 
 
-
 class _CardType2 extends StatelessWidget {
 
   final String label;
@@ -196,7 +195,7 @@ class _CardType4 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-    final colors = Theme.of(context).colorScheme;
+    // final colors = Theme.of(context).colorScheme;
 
     return Card(
       clipBehavior: Clip.hardEdge,
